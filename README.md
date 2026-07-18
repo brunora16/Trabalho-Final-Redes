@@ -1,4 +1,4 @@
-# Análise de Roteamento BGP e Soberania Digital: EUA vs. China 🌐
+# Análise de Roteamento BGP e Soberania Digital: EUA vs. China
 
 Repositório destinado ao trabalho final da disciplina de **Redes de Computadores I** do curso de Ciência da Computação da Universidade Federal do Rio de Janeiro (UFRJ).
 
