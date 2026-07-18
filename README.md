@@ -33,13 +33,14 @@ O pipeline de dados foi construído em Python (Jupyter Notebook) e consulta dina
 * **RIPEstat (Data API):** Utilizado para extrair os caminhos BGP (`/data/bgp-state/`) e garantir as informações de registro soberano oficial (`/data/rir-geo/`).
 * **PeeringDB / RDAP:** Utilizados como endpoints de segurança e validação secundária para o mapeamento da localização geográfica dos ASNs de trânsito.
 
-## Como Executar o Projeto
+### Como Executar o Projeto (Google Colab)
 
-1. Instale as dependências necessárias:
-```bash
-pip install requests pandas matplotlib seaborn tqdm ipywidgets
-```
-2. Abra o Jupyter Notebook (`Trabalho_Redes.ipynb`) e execute as células em ordem sequencial. O script fará o download das rotas ao vivo, processará a topologia, gerará um arquivo `metricas_finais_bgp.csv` e exportará os gráficos (`.png`).
+Como o pipeline de dados foi desenvolvido e validado no ambiente em nuvem do Google Colab, não é necessária nenhuma configuração de ambiente local ou instalação via terminal.
+
+Para reproduzir os resultados:
+1. Faça o download do arquivo `Trabalho_Redes.ipynb` presente neste repositório.
+2. Acesse o [Google Colab](https://colab.research.google.com/).
+3. Execute as células em ordem sequencial. O script fará as consultas via API em tempo real e gerará os arquivos de métricas e gráficos diretamente no armazenamento temporário da sua sessão do Colab.
 
 ## Resultados
 Os dados tabulados (`.csv`) e os três gráficos de análise comparativa gerados pelo script encontram-se disponíveis na raiz deste repositório para consulta.
