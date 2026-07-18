@@ -1,0 +1,11 @@
+Empresa,ASN,País Sede,Rotas Únicas,Tamanho Médio AS_PATH,Concentração Top-5 (%),Fração de ASes Estrangeiros (%),Diversidade de ASes
+Huawei Cloud,50304,CN,211549,3.97,49.55,99.27,523
+Alibaba Cloud,3462,CN,402948,4.0,66.58,84.86,503
+Tencent,1853,CN,371319,3.81,56.2,94.12,500
+JD.com,9009,CN,136852,5.01,84.09,25.86,428
+Baidu,64126,CN,45000,5.47,98.87,25.3,379
+Microsoft,4755,US,453075,2.29,12.64,79.94,405
+Google,56308,US,448095,2.36,15.12,71.57,452
+Meta (Facebook),8772,US,145731,3.23,66.68,56.91,495
+Netflix,15935,US,109730,3.23,58.84,46.11,513
+X (Twitter),9044,US,11367,4.67,100.0,20.13,351
